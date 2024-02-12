@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Валентинка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="title">Маша, привет!</h1>
+    <p class="text">Сегодня 14 февраля, поэтому вот тебе валентинка от меня</p>
+
+    <div class="heart">
+
+    </div>
+
+    <style type="text/css">
+        .heart:before,
+        .heart:after {
+            content: '';
+            width: 60px;
+            height: 100px;
+            position: absolute;
+            background-color: red;
+            border-radius: 40px 40px 0 0;
+        }
+
+        .heart:before {
+            left: 100px;
+            transform: rotate(45deg);
+        }
+        .heart:after {
+            left:70px;
+            transform: rotate(-45deg);
+        }
+
+    </style>
+    <br>
+    <p class="masha">Для Маши!</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p class="text">Учитывая твою специальность, я подумал, что будет прикольно и оригинально сделать именно так:)</p>
+    <p class="text">А вообще, Ты невероятно красивая, умная, добрая, весёлая и милая девушка. И я очень рад нашему общению!</p>
+
+</body>
+
+</html>
